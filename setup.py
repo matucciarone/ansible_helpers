@@ -9,7 +9,7 @@ setup(
     install_requires = [
         "boto3",
         "botocore",
-        "ansible==2.8.15"
+        "ansible==2.14.5"
     ],
     packages = find_packages(),
     description = "Helpers for developing ansible plugins/modules/etc",
