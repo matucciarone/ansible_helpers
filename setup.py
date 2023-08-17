@@ -5,11 +5,11 @@ from setuptools import setup, find_packages
 setup(
     name = "ansible_helpers",
     author = "jsammut",
-    version = "2.0.0",
+    version = "2.1.0",
     install_requires = [
         "boto3",
         "botocore",
-        "ansible==2.14.5"
+        "ansible==2.9.27"
     ],
     packages = find_packages(),
     description = "Helpers for developing ansible plugins/modules/etc",
